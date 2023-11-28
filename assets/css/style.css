@@ -112,81 +112,19 @@
     max-width: 370px;
 }
 
+.mx-370 {
+    max-width: 370px;
+}
+
+.mx-370 {
+    max-width: 370px;
+}
+
+.mw-416 {
+    max-width: 416px;
+}
+
 /* -----header----- */
-.box-2 {
-    display: flex;
-    max-width: 400px;
-    height: 80px;
-    padding: 0px 16px;
-    align-items: center;
-    gap: 14px;
-    border-radius: 10px;
-    background: rgba(3, 137, 255, 0.12);
-    backdrop-filter: blur(12.5px);
-}
-
-.box1 {
-    width: 221px;
-    height: 96px;
-    padding: 16px 20px 16px 20px;
-    gap: 20px;
-    border-radius: 12px;
-    background: rgba(3, 137, 255, 0.12);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    top: 63%;
-    left: -5%;
-}
-
-.box2 {
-    width: 221px;
-    height: 96px;
-    padding: 16px 20px 16px 20px;
-    gap: 20px;
-    border-radius: 12px;
-    background: rgba(3, 137, 255, 0.12);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    top: 36%;
-    left: -3%;
-}
-
-
-.box3 {
-    width: 221px;
-    height: 96px;
-    padding: 16px 20px 16px 20px;
-    gap: 20px;
-    border-radius: 12px;
-    background: rgba(3, 137, 255, 0.12);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    top: 76%;
-    right: 18%;
-}
-
-
-.box4 {
-    width: 221px;
-    height: 96px;
-    padding: 16px 20px 16px 20px;
-    gap: 20px;
-    border-radius: 12px;
-    background: rgba(3, 137, 255, 0.12);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    top: 47%;
-    right: -1%;
-}
-
-.iconbox {
-    width: 64px;
-    height: 64px;
-    padding: 16px;
-    border-radius: 14px;
-    background: #8048F81A;
-}
-
 .small_box {
     border-radius: 10px;
     background: rgba(3, 137, 255, 0.12);
@@ -380,6 +318,10 @@
     padding-left: 20px;
 }
 
+.mt-28 {
+    margin-top: 28px;
+}
+
 .mt-57 {
     margin-top: -57px;
 }
@@ -414,7 +356,7 @@
     right: 0;
     width: 29%;
     height: 2px;
-    background-color:var(--light-blue);
+    background-color: var(--light-blue);
     position: absolute;
     top: 50%;
 }
@@ -577,9 +519,15 @@ ul {
 }
 
 
-.mx-370 {
-    max-width: 370px;
+.img_mwh {
+    width: 64px;
+    height: 64px;
 }
+
+.start-0 {
+    left: 0;
+}
+
 
 .accordion-item {
     border: none !important;
@@ -587,73 +535,28 @@ ul {
     background: rgba(3, 137, 255, 0.12) !important;
     backdrop-filter: blur(12.5px) !important;
     margin-bottom: 20px !important;
-
+    width: 100%;
 }
 
-.mw-370 {
-    max-width: 370px;
+.mh-550 {
+    min-height: 260px;
 }
 
-.mw-416 {
-    max-width: 416px;
-}
-
-
-.accordion-button:focus {
-    border-color: none !important;
-}
-
-.accordion-button::after {
-    content: unset !important;
+.accordion-body {
+    padding: 0 !important;
+    padding-left: 27px !important;
+    padding-bottom: 20px !important;
 }
 
 
-.accordion-button:not(.collapsed) {
-    background-color: transparent;
-    border-radius: 10px;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-    border-radius: 10px;
-}
-
-.accordion-button::after {
-    background-image: none;
-    height: 28px;
-    width: 28px;
-    border-radius: 10px;
-}
-
-.border-radius {
-    border-radius: 10px;
-}
-
-.accordion-button:not(.collapsed)::after {
-    background-image: none;
-    transform: var(--bs-accordion-btn-icon-transform);
-}
-
-.small-content-box {
-    border-radius: 10px;
-    height: 69px;
-    max-width: 531px;
-}
-
-.accordion-button:not(.collapsed) {
-    box-shadow: none;
-}
-
-.accordion-flush .accordion-item {
-    border-right: 0;
-    border-left: 0;
-    border-radius: 10px;
+.tranlate-xy {
+    transform: translate(14px, 12px);
 }
 
 .accordion-button {
     color: #fbfdff !important;
     transition: all 500ms linear !important;
-    padding: 22.5px 249.456px 23.5px 25.544px !important;
+    padding: 22.5px 23.456px 23.5px 25.544px !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -671,6 +574,15 @@ ul {
     --bs-accordion-active-color: #0389ff !important;
     --bs-accordion-active-padding-bottom: 7px !important;
 }
+
+.accordion-button:focus {
+    border-color: none !important;
+}
+
+.accordion-button::after {
+    content: unset !important;
+}
+
 
 .border-bottom1 {
     border-bottom: 1px solid var(--light-gry);
