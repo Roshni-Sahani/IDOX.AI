@@ -123,7 +123,9 @@
 .mw-416 {
     max-width: 416px;
 }
-
+.overflowhidden{
+    overflow-x: clip;
+}
 /* -----header----- */
 .small_box {
     border-radius: 10px;
@@ -207,7 +209,7 @@
     margin: 3px;
     padding: 0;
     font-family: slick;
-    font-size: 16px;
+    font-size: var(--fs-xs);
     width: 9px;
     height: 9px;
     content: '';
@@ -504,6 +506,11 @@ ul {
     display: block;
 }
 
+.img-slider {
+    background: var(--dark-blue);
+    mix-blend-mode: color;
+}
+
 .work-card {
     border-radius: 15px;
     background: rgba(3, 137, 255, 0.12);
@@ -517,7 +524,7 @@ ul {
     height: 30px;
     position: absolute;
     right: 0;
-    top: 47%;
+    top: 37%;
 }
 
 .ok-icon {
@@ -539,7 +546,6 @@ ul {
 .start-0 {
     left: 0;
 }
-
 
 .accordion-item {
     border: none !important;
@@ -566,7 +572,7 @@ ul {
 }
 
 .accordion-button {
-    color: #fbfdff !important;
+    color: var(--off-white) !important;
     transition: all 500ms linear !important;
     padding: 22.5px 23.456px 23.5px 25.544px !important;
 }
@@ -574,7 +580,7 @@ ul {
 .accordion-button:not(.collapsed) {
     padding-bottom: var(--bs-accordion-active-padding-bottom) !important;
     transition: all 300ms linear !important;
-    color: #0389ff !important;
+    color: var(--light-blue) !important;
 }
 
 .accordion {
