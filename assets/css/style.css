@@ -11,16 +11,16 @@
 }
 
 /* ---custom-contanier---- */
-.my-container {
-    max-width: 1440px;
+.my-container2 {
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.my-container2 {
-    max-width: 1140px;
+.my-container3 {
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -123,9 +123,11 @@
 .mw-416 {
     max-width: 416px;
 }
-.overflowhidden{
+
+.overflowhidden {
     overflow-x: clip;
 }
+
 /* -----header----- */
 .small_box {
     border-radius: 10px;
@@ -411,7 +413,6 @@ ul {
 .line {
     position: relative;
 }
-
 .line::after {
     content: "";
     position: absolute;
@@ -525,6 +526,7 @@ ul {
     position: absolute;
     right: 0;
     top: 37%;
+    z-index: -1;
 }
 
 .ok-icon {
@@ -739,6 +741,31 @@ ul {
     position: absolute;
     right: -5%;
     top: 10%;
+}
+
+.sec5-ellipse2 {
+    border-radius: 433.455px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    width: 433.455px;
+    height: 422px;
+    position: absolute;
+    right: 49%;
+    top: 22%;
+}
+
+.sec7-ellipse2 {
+    border-radius: 433.455px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    width: 433.455px;
+    height: 422px;
+    position: absolute;
+    left: 14%;
+    top: 10%;
+    z-index: -1;
 }
 
 .aiimg {
